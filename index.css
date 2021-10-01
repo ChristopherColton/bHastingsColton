@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: bisque;
+}
+
+ul
+{   
+    float:left;
+}
+
+li
+{
+    display: inline-block;
+}
+
+li:hover
+{
+    background-color: blueviolet;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{   
+    
+    color: red;
+}
