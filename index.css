@@ -8,31 +8,62 @@
 body
 {
     background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container p 
+{
+    color:white;
+    position: absolute;
+    bottom: 50px;
+    right: 265px;
+    font-size: 60px;
 }
 
 ul
 {   
-    float:left;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
 }
 
 li
-{
-    display: inline-block;
+{   
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 li:hover
 {
-    background-color: blueviolet;
+    background-color: black;
+    
 }
 
-a
-{
-    text-decoration: none;
-    color: black;
-}
 
 a:hover
 {   
     
     color: red;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img:hover
+{
+    transform: scale(1.1);
+    opacity: 0.6;
 }
