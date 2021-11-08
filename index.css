@@ -12,6 +12,19 @@ body
     height: 100%;
 }
 
+footer
+{
+    position: fixed;
+    width: 100%;
+    left:0;
+    bottom:0;
+    background-color: #022633;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
 h1
 {
     text-align: center;
@@ -64,10 +77,59 @@ a
 {
     display: inline-block;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 #normans
 {
     margin-top: 20px;
     border-top: 4px solid black;
+}
+
+#banner
+{
+    position: relative;
+    text-align: center;
+}
+
+#banner-image
+{
+    width: 100%;
+    height: 450px;
+}
+
+#banner-text
+{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#gridDiv
+{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+section
+{   
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    float: right;
+    grid-row: 2/2;
+    grid-column: auto;
+}
+
+section:nth-child(odd)
+{
+    background-color: #658D9C;
+}
+section:nth-child(even)
+{
+    background-color: #235568;
 }
